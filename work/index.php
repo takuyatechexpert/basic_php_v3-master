@@ -1,6 +1,15 @@
 <?php
 
-$message = 'こんにちは！！' .date('l');
+$n = mt_rand(1, 3);
+// mt_randで乱数を表示できる()の中は範囲、今回の場合は1~3までをランダム表示
+
+  if ($n === 1) {
+    $message = 'UI/UXデザイナー見習いです';
+  } elseif ($n === 2) {
+    $message = 'プログラミング勉強中です';
+  } else {
+    $message = 'PHPちょっとわかります';
+  }
 
  ?>
 
