@@ -1,4 +1,6 @@
 <?= 
+
+$title = '';
 include('_header.php');
 
 ?>

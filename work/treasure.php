@@ -1,4 +1,6 @@
 <?= 
+
+$title = '宝探しゲーム -';
 include('_header.php');
 
 ?>
