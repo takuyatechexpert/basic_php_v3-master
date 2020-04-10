@@ -1,4 +1,6 @@
 <?= 
+
+$title = '神経衰弱 -';
 include('_header.php');
 
 ?>
